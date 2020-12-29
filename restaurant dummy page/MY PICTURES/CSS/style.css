@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.topnav
+{
+    background-color:#000000;
+    color:#fff;
+}
+
+.topnav a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+}
+
+.topnav a:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.header{
+    background: linear-gradient(rgb(0,0,0,0.8), rgb(255,255,255,0.8)),
+    url("https://casasensei.com/wp-content/uploads/2019/06/South-Indian-Bruschetta-Recipe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px
+}
+
+.header h1{
+    text-transform: uppercase;
+    padding: 15%;
+    margin-bottom: none;  
+}
+
+.row:after {
+    content: "";
+    display : table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+.column img{
+    width: 90%;
+    height: 500px;
+    margin-left: 25px;
+}
+#about {
+    padding: 5%;
+}
+
+#about h1{
+    margin-top: 100px;
+    margin-left: 35%;
+    font-family: Cambria;
+    font-size: 50px;
+}
+#about h3{
+    margin-top: 5px;
+    font-size: 30px;
+    margin-left: 37%;
+}
+#about p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#about img{
+    margin-top: 60px;
+    width: 90%;
+    height: 450px;
+    margin-right: none;
+}
+
+#menu {
+    padding: 5%;
+}
+
+#menu h1{
+    margin-top: 40px;
+    margin-left: 25%;
+    font-family: Cambria;
+    font-size: 50px;
+}
+#menu h3{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 5%;
+    font-family: Cambria;
+}
+#menu p{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 2px;
+    font-family: Cambria;
+}
+#menu img{
+    width: 90%;
+    height: 500px;
+}
+
+#menu {
+    padding: 5%;
+}
+
+#contact h1{
+    margin-top: 15px;
+    margin-left: 32%;
+    font-family: Cambria;
+    font-size: 50px;
+}
+#contact p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 15%;
+    font-family: Cambria;
+}
+#contact img{
+    margin-left: 5%;
+    width: 90%;
+    height: 300px;
+}
+
+#reach h1{
+    margin-top: 10%;
+    margin-left: 42%;
+    font-size: 50px;
+    font-family: Cambria;
+}
+
+#reach form{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 20px;
+    font-family: Calibri;
+}
+
+#reach img{
+    height: 300px;
+    margin-left: 7%;
+    margin-top: 20%;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+}
+.indicator{
+    background-color: #DC143C;
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+    border-radius: 20px;
+    font-family: Cambria;
+}
